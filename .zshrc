@@ -51,6 +51,7 @@ function gac () {
 function gpa () {
     git add .
     git commit -m "[ git-push-all script-generated text ] This is an emergency commit & push operation - or I just am being lazy..."
+    git push
 }
 
 # I'm going to need this...
