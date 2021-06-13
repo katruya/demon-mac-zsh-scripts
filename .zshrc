@@ -1,9 +1,9 @@
 # MY ALIASES
 
 # Edit .zshrc (requires visual studio code installed in path)
-alias ezrc='code ~/.zshrc'
+alias ez='code ~/.zshrc'
 
-alias szrc='source ~/.zshrc && cp ~/.zshrc ~/scripts'
+alias sz='source ~/.zshrc && cp ~/.zshrc ~/scripts'
 
 # Edit .hyper.js
 alias hyjs='code ~/.hyper.js'
