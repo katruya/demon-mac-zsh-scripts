@@ -1,11 +1,12 @@
 # MY ALIASES
 
-# Edit .zshrc
-alias ezrc='vim ~/.zshrc && cd -'
-alias szrc='source ~/.zshrc'
+# Edit .zshrc (requires visual studio code installed in path)
+alias ezrc='code ~/.zshrc'
+
+alias szrc='source ~/.zshrc && cp ~/.zshrc ~/scripts'
 
 # Edit .hyper.js
-alias hyjs='vim ~/.hyper.js && cd -'
+alias hyjs='code ~/.hyper.js && cd -'
 
 # System
 alias lla='ls -la'
@@ -44,7 +45,7 @@ alias nps='npm start'
 alias npt='npm test'
 
 # Compile & Run - C++
-alias cpcr='g++ -I -std=c++12 *.cpp -o app && ./app'
+alias cpcr='g++ -I -std=c++14 *.cpp -o app && ./app'
 
 # brew commands
 alias bi='brew install'
