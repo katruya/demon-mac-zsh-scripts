@@ -40,6 +40,19 @@ alias gst='git status'
 
 alias gph='git push'
 
+# quickly add & commit changes
+function gac () {
+    git add "$1"
+    git commit -m "$2"
+}
+
+# add all changes, commit all changes, & push all changes 
+# gpa stands for "git push all"
+function gpa () {
+    git add .
+    git commit -m "(Script generated text) This is an emergency commit & push operation - or I just am being lazy..."
+}
+
 # node/npm commands
 alias js='node'
 alias nit='npm init'
