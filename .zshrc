@@ -6,7 +6,10 @@ alias ezrc='code ~/.zshrc'
 alias szrc='source ~/.zshrc && cp ~/.zshrc ~/scripts'
 
 # Edit .hyper.js
-alias hyjs='code ~/.hyper.js && cd -'
+alias hyjs='code ~/.hyper.js'
+
+# Copy .hyper.js to my scripts repo
+alias chjs='cp ~/.hyper.js ~/scripts'
 
 # System
 alias lla='ls -la'
