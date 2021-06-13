@@ -50,8 +50,11 @@ function gac () {
 # gpa stands for "git push all"
 function gpa () {
     git add .
-    git commit -m "(Script generated text) This is an emergency commit & push operation - or I just am being lazy..."
+    git commit -m "[ git-push-all script-generated text ] This is an emergency commit & push operation - or I just am being lazy..."
 }
+
+# I'm going to need this...
+alias gamend='git commit --amend'
 
 # node/npm commands
 alias js='node'
