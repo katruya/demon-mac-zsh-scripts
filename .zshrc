@@ -41,14 +41,14 @@ alias gst='git status'
 alias gph='git push'
 
 # quickly add & commit changes
-function gac () {
+function gaac() {
     git add "$1"
     git commit -m "$2"
 }
 
 # add all changes, commit all changes, & push all changes 
 # gpa stands for "git push all"
-function gpa () {
+function gpa() {
     git add .
     git commit -m "[ git-push-all script-generated text ] This is an emergency commit & push operation - or I just am being lazy..."
     git push
@@ -69,3 +69,6 @@ alias cpcr='g++ -I -std=c++14 *.cpp -o app && ./app'
 
 # brew commands
 alias bi='brew install'
+
+# logging commands
+alias startlog='/usr/bin/script ~/logs/zsh_demon_kat.log && ~/scripts/logger.sh'
