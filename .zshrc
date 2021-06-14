@@ -71,4 +71,4 @@ alias cpcr='g++ -I -std=c++14 *.cpp -o app && ./app'
 alias bi='brew install'
 
 # logging commands
-alias startlog='/usr/bin/script ~/logs/zsh_demon_kat.log && ~/scripts/logger.sh'
+alias logger='~/scripts/logger.sh'
