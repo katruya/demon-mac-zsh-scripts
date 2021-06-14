@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 24,
+    fontSize: 30,
 
     // font family with optional fallbacks
     fontFamily: '"Courier New", Courier, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
@@ -27,7 +27,7 @@ module.exports = {
     letterSpacing: 0,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(248,28,229,0.9)',
+    cursorColor: 'rgb(255, 255, 255)',
 
     // terminal text color under BLOCK cursor
     cursorAccentColor: '#000',
@@ -36,7 +36,7 @@ module.exports = {
     cursorShape: 'UNDERLINE',
 
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: false,
+    cursorBlink: true,
 
     // color of the text
     foregroundColor: 'green',
@@ -46,7 +46,7 @@ module.exports = {
     backgroundColor: 'rgba(0, 0, 0, 0.9)',
 
     // terminal selection color
-    selectionColor: 'rgba(248,28,229,0.3)',
+    selectionColor: 'rgb(255, 255, 255, 0.5',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -151,7 +151,7 @@ module.exports = {
     "hyper-search",
     "hypergoogle",
     "hyper-savetext",
-    "hyper-blink"
+    "hyper-blink",
   ],
 
   // in development, you can create a directory under
