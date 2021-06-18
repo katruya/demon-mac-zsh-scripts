@@ -6,6 +6,8 @@ module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
+    commands:['node ~/scripts/inspiro.js'],
+
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
@@ -152,6 +154,14 @@ module.exports = {
     "hypergoogle",
     "hyper-savetext",
     "hyper-blink",
+    "hyper-pane",
+    "hypercwd",
+    "hyper-active-tab",
+    "hyperline",
+    "hyper-init",
+    "hyper-startup",
+    "hyper-font-ligatures",
+    "hyper-one-dark"
   ],
 
   // in development, you can create a directory under
